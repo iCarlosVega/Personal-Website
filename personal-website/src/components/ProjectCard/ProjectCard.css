@@ -1,0 +1,38 @@
+.card-container {
+  width: calc(33.333% - 1rem);
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+  margin: 0.5rem;
+  align-items: left;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card-container h1, .card-container p {
+  margin: 0.5rem; /* Adds a little space around the text */
+  text-align: left;
+}
+
+.card-img {
+  width: 100%; /* Full width of the container */
+  object-fit: cover; /* Cover ensures the image covers the area, might crop */
+  height: auto; /* Fixed height for the image */
+  /*border-radius: 1rem; Optional: Add border-radius for rounded corners */
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-in {
+  animation: fadeIn 1s ease-out forwards;
+}

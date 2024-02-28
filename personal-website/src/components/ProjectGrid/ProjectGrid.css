@@ -1,0 +1,18 @@
+/* ProjectsGrid.css */
+.projects-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* Creates three columns */
+    gap: 20px; /* Adjust the gap between projects */
+    padding: 20px; /* Add some padding around the grid */
+}
+
+.project {
+    border: 1px solid #ccc; /* Example styling for projects */
+    padding: 10px;
+    text-align: center;
+}
+
+.project img {
+    width: 100%; /* Makes the image fill the container */
+    height: auto; /* Keeps the aspect ratio of the image */
+}

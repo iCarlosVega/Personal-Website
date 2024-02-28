@@ -1,0 +1,32 @@
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 100px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.navbar li, .navbar .nav-group {
+    display: flex;
+    font-family: monospace; 
+    font-size: 20px;
+}
+
+.navbar li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 10px; /* Adjust padding as needed */
+    text-decoration: none;
+}
+
+.navbar .nav-group {
+    margin-left: auto; /* This pushes the nav-group to the right */
+    font-family: monospace; 
+    font-size: 20px;
+}
+
+.navbar .nav-group li {
+    padding-left: 16px; /* Add space between grouped items if needed */
+}
