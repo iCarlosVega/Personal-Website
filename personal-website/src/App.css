@@ -4,11 +4,19 @@
   padding: 1rem; /* Adds some padding around the container */
 }
 
-@media (max-width: 600px) {
-  .card-container {
-    width: calc(50% - 1rem); /* Adjusts to 2 per row */
+@media (max-width: 768px) {
+  .App {
+    flex-direction: column; /* Stack elements vertically on smaller screens */
   }
+
+  .card-container {
+    width: 100%; /* Allow each card to take full width on smaller screens */
+    margin: 0.5rem 0; /* Adjust margin for vertical stacking */
+  }
+
+  /* Adjust font sizes, paddings, or any other properties for mobile here */
 }
+
 
 .App-logo {
   height: 40vmin;

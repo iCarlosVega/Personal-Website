@@ -30,3 +30,67 @@
 .navbar .nav-group li {
     padding-left: 16px; /* Add space between grouped items if needed */
 }
+
+/* Existing styles... */
+
+.navbar .hamburger {
+    display: none; /* Ensure it's hidden by default */
+    cursor: pointer;
+}
+
+/* Hide elements with this class */
+.navbar .hidden {
+    display: none;
+}
+
+/* Styles for larger screens */
+@media (min-width: 769px) {
+    .navbar .nav-group {
+        display: flex; /* Ensure nav-group is visible on larger screens */
+    }
+
+    .navbar .hamburger {
+        display: none; /* Explicitly hide the hamburger menu on larger screens */
+    }
+}
+
+
+@media (max-width: 768px) {
+    .navbar .nav-group {
+        display: none; /* Hide nav-group by default on mobile */
+    }
+
+    .navbar .hamburger {
+        display: block; /* Show the hamburger menu on mobile */
+        margin-left: auto; /* Align it to the right */
+    }
+
+    .navbar ul {
+        padding: 20px; /* Adjust padding for mobile */
+    }
+}
+
+
+@media (max-width: 768px) {
+    /* Hide all list items except the first one (CARLOS VEGA) */
+    .navbar ul li:not(:first-child) {
+        display: none;
+    }
+
+    /* Since 'portfolio' and 'about me' are in .nav-group, hide all initially */
+    .navbar .nav-group li {
+        display: none;
+    }
+
+    /* Explicitly display 'about me'. If 'about me' is the second link, use :nth-child(2) */
+    .navbar .nav-group li:nth-of-type(2) {
+        display: block;
+    }
+
+    /* Ensure the nav-group itself is flexed correctly to align items */
+    .navbar .nav-group {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start; /* Align to the left */
+    }
+}
