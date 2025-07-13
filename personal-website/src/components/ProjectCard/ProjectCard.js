@@ -8,9 +8,22 @@ function ProjectCard(props) {
         setFadeIn(true); // This will trigger the fade-in effect when the component mounts
     }, []);
 
+    const isInternalLink = props.link.startsWith('/');
+
+    const CardContent = (
+      <>
+        <img src={`${process.env.PUBLIC_URL}/images/${props.imgSrc}`} alt={props.imgAlt} className='card-img' />
+        <div>
+          <h1>{props.title}</h1>
+          <p>{props.info}</p>
+        </div>
+      </>
+    );
+  
+
     return (
         <div className={`card-container ${fadeIn ? 'fade-in' : ''}`}>
-            <a href={props.link} target='_blank' rel="noopener noreferrer">
+            <a href={props.link} rel="noopener noreferrer">
                 <img src={`${process.env.PUBLIC_URL}/images/${props.imgSrc}`} alt={props.imgAlt} className='card-img'/>
             </a>
             <div>

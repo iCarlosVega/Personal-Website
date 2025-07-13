@@ -1,0 +1,56 @@
+.Home {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Responsive grid */
+  gap: 20px; /* Space between grid items */
+  padding: 20px;
+}
+  
+  @media (max-width: 768px) {
+    .Home {
+      grid-template-columns: 1fr; /* Single column on smaller screens */
+    }
+  
+    .card-container {
+      width: 100%; /* Allow each card to take full width on smaller screens */
+      margin: 0.5rem 0; /* Adjust margin for vertical stacking */
+    }
+  
+    /* Adjust font sizes, paddings, or any other properties for mobile here */
+  }
+  
+  
+  .Home-logo {
+    height: 40vmin;
+    pointer-events: none;
+  }
+  
+  @media (prefers-reduced-motion: no-preference) {
+    .Home-logo {
+      animation: Home-logo-spin infinite 20s linear;
+    }
+  }
+  
+  .Home-header {
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+  }
+  
+  .Home-link {
+    color: #61dafb;
+  }
+  
+  @keyframes Home-logo-spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  

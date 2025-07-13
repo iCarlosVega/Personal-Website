@@ -1,11 +1,9 @@
 .card-container {
-  width: calc(33.333% - 1rem);
   display: flex;
   flex-direction: column;
   overflow: hidden;
   margin: 0.5rem;
-  align-items: left;
-  overflow: hidden;
+  align-items: flex-start; /* Align items to the start */
   cursor: pointer;
 }
 
