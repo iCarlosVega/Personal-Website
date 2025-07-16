@@ -24,7 +24,6 @@ function AboutMe(){
                         <li>Born in Mexico city and moved to NYC when I was younger and been here ever since.</li>
                         <li>I started taking squash and tennis a little more seriously.</li>
                         <li>I like playing competitive games from time to time, peaked in rivals Celestial 3 (check my <a href="https://tracker.gg/marvel-rivals/profile/ign/LookinFoSWEjob/overview?season=6&mode=competitive" target="_blank" rel="noopener noreferrer">tracker.gg</a>) but recently started playing runescape.</li>
-                        <li>Here's my <a href='/Software_Engineering_Resume.pdf' target="_blank" rel="noopener noreferrer">resume</a>!</li>
                     </ul>
                 </div>
             </div>

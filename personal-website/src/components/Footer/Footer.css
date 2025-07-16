@@ -1,0 +1,30 @@
+.footer {
+    width: 100%;
+    background: #fff;
+    border-top: 1px solid #eee;
+    padding: 30px 0 20px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: monospace;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+.footer ul {
+    list-style: none;
+    display: flex;
+    gap: 32px;
+    margin: 0;
+    padding: 0;
+}
+
+.footer li a {
+    color: black;
+    text-decoration: none;
+    transition: color 0.2s;
+}
+
+.footer li a:hover {
+    color: #0072b1; /* LinkedIn blue for hover, or pick a highlight color */
+}

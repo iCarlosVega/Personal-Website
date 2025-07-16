@@ -4,6 +4,7 @@ import NavBar from './components/NavBar/NavBar';
 import Home from './pages/home/home.jsx';
 import InProgress from './pages/in-progress/in-progress.jsx';
 import AboutMe from './pages/aboutme/aboutme.jsx';
+import Footer from './components/Footer/Footer.jsx';
 
 import './App.css';
 
@@ -17,6 +18,7 @@ function App() {
           <Route exact path='/aboutme' element={<AboutMe/>} />
           {/* <Route path='/about-me' element={<AboutMe/>} /> */}
         </Routes>
+        <Footer />
     </Router>
   );
 }
