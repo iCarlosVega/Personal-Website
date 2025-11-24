@@ -93,8 +93,8 @@ function Home() {
                             </h1>
                         </div>
                         <div className="hero-footer-right">
-                            I am a developer with a passion for data and design.
-                            I build digital experiences that are both beautiful and functional.
+                            I am a developer with a love for the theory behind the math and engineering.
+                            Just another wayfarer in the digital expanse creating as I go.
                         </div>
                     </div>
                 </div>

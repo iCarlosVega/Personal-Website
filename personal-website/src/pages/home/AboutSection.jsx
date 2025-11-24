@@ -14,10 +14,10 @@ function AboutSection() {
                 <div className="about-text">
                     <h2 className="about-heading">HELLO, I'M CARLOS.</h2>
                     <p className="about-description">
-                        I am a recent Computer Science and Mathematics graduate with a passion for technology and engineering. I build AI-driven systems and scalable web applications.
+                        I am a recent Computer Science and Mathematics graduate with a passion for technology and engineering. I don't like to limit myself to just one area. I love to understand the system as whole, the interconnectivity of technology. My experties are in Data intensive fullstack applications.
                     </p>
                     <p className="about-description">
-                        Beyond code, I have a wondering spirit when it comes to learning. I thrive on solving complex problems, whether it's optimizing pipelines, research, or crafting meaningful experiences.
+                        Beyond code, I have a wondering spirit when it comes to learning. Currently contemplating my next move in academia, whether it's pursuing a Masters or delving into a new field.
                     </p>
 
                     <div className="about-skills">
